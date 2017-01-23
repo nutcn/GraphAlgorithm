@@ -16,10 +16,10 @@ graph.insert_edge(vertex_C, vertex_D)
 graph.insert_edge(vertex_D, vertex_A)
 
 
-# travelDict = {}
-# Graph.DFS(graph, vertex_A, travelDict)
-# path_ad = Graph.construct_path(vertex_A, vertex_D, travelDict)
-# print [vertex.element() for vertex in path_ad]
+travelDict = {}
+Graph.DFS(graph, vertex_A, travelDict)
+path_ad = Graph.construct_path(vertex_A, vertex_D, travelDict)
+print [vertex.element() for vertex in path_ad]
 
-forest = Graph.DFS_complete(graph)
-print [vertex.element() for vertex in forest.keys()]
+# forest = Graph.DFS_complete(graph)
+# print [vertex.element() for vertex in forest.keys()]

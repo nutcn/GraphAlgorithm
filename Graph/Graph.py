@@ -126,6 +126,7 @@ def BFS(graph, vertex, discoveredMap):
                 next_level.append(next_vertex)
         level = next_level
 
-
+if __name__ == '__main__':
+    main()
 
 
